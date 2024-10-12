@@ -1,10 +1,8 @@
 from expects import equal, expect
 
-from hello import Hello
+from hello import hello
 
 
 class TestHello:
     def test_hello(self) -> None:
-        hello = Hello()
-
-        expect(hello.hello()).to(equal("Hello, world"))
+        expect(hello()).to(equal("Hello, world"))

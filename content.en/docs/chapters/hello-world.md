@@ -12,22 +12,18 @@ It is traditional for your first program in a new language to be [Hello, World](
 - Create a new file in it called `hello.py` and put the following code inside it:
 
 ```python
-class Hello:
-    def hello(self) -> str:
-        print("Hello, world")
+def hello() -> str:
+    print("Hello, world")
 
 
-hello = Hello()
-hello.hello()
+hello()
 ```
 
 To run it type `python hello.py`.
 
 ## How it works
 
-When you write a program in Python just can define a method and after that just call it.
-
-The `class` keyword is how you define a class with a name and a body.
+When you write a program in Python you just can define a method and after that just call it.
 
 The `def` keyword is how you define a function with a name and a body.
 
@@ -42,14 +38,11 @@ The `print` is a side effect \(printing to stdout\) and the string we send in is
 So let's separate these concerns so it's easier to test
 
 ```python
-class Hello:
-    def hello(self) -> str:
-        return "Hello, world"
+def hello() -> str:
+    return "Hello, world"
 
 
-def main():
-    hello = Hello()
-    print(hello.hello())
+print(hello())
 ```
 
 We have created a new function again with `def` called hello.
@@ -59,12 +52,10 @@ Now create a new file called `test_hello.py` where we are going to write a test 
 ```python
 from expects import equal, expect
 
-from hello import Hello
+from hello import hello
 
 
 class TestHello:
     def test_hello(self) -> None:
-        hello = Hello()
-
-        expect(hello.hello()).to(equal("Hello, world"))
+        expect(hello()).to(equal("Hello, world"))
 ```
