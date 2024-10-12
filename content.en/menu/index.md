@@ -4,7 +4,7 @@ headless: true
 
 - **Before start**
   - [Install Python]({{< relref "/docs/introduction/install-python.md" >}})
-  - [Install Minitest]({{< relref "/docs/introduction/install-minitest.md" >}})
+  - [Install Pytest]({{< relref "/docs/introduction/install-minitest.md" >}})
 
 - **Chapters**
   - [Hello World!]({{< relref "/docs/chapters/hello-world.md" >}})

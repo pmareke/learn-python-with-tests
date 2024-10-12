@@ -9,21 +9,25 @@ weight: 3
 It is traditional for your first program in a new language to be [Hello, World](https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program).
 
 - Create a folder wherever you like
-- Put a new file in it called `hello.rb` and put the following code inside it
+- Put a new file in it called `hello.py` and put the following code inside it
 
 ```python
-def main
-    print("Hello, world")
-end
+class Hello:
+    def hello(self) -> str:
+        print("Hello, world")
 
-main
+
+def main():
+    hello = Hello()
 ```
 
-To run it type `python hello.rb`.
+To run it type `python hello.py`.
 
 ## How it works
 
 When you write a program in Python just can define a method and after that just call it.
+
+The `class` keyword is how you define a class with a name and a body.
 
 The `def` keyword is how you define a function with a name and a body.
 
@@ -38,29 +42,29 @@ The `print` is a side effect \(printing to stdout\) and the string we send in is
 So let's separate these concerns so it's easier to test
 
 ```python
-def hello
-  return "Hello, world"
-end
+class Hello:
+    def hello(self) -> str:
+        return "Hello, world"
 
-def main
-  print(hello)
-end
 
-main
+def main():
+    hello = Hello()
+    print(hello.hello())
 ```
 
 We have created a new function again with `def` called hello.
 
-Now create a new file called `hello_test.rb` where we are going to write a test for our `hello` function
+Now create a new file called `test_hello.py` where we are going to write a test for our `hello` function
 
 ```python
-require "minitest/autorun"
+from expects import equal, expect
 
-require_relative "hello"
+from hello import Hello
 
-class TestHello < Minitest::Test
-  def test_hello
-    assert_equal hello, "Hello, world" 
-  end
-end
+
+class TestHello:
+    def test_hello(self) -> None:
+        hello = Hello()
+
+        expect(hello.hello()).to(equal("Hello, world"))
 ```
