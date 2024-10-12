@@ -15,7 +15,7 @@
     
     
     <item>
-      <title></title>
+      <title>Hello World</title>
       <link>http://localhost:1313/docs/chapters/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;h1&gt;Hello World&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It is traditional for your first program in a new language to be &lt;a href=&#34;https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hello, World&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a folder wherever you like.&lt;/li&gt;
@@ -105,7 +105,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Booleans</title>
       <link>http://localhost:1313/docs/chapters/booleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -113,7 +113,7 @@
       <description>
         
         
-        &lt;h1&gt;Booleans&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
       </description>
     </item>

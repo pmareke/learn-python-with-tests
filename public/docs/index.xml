@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learn Python with Tests – Docs</title>
+    <title>Learn Python with Tests – Learn Python with TDD</title>
     <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on Learn Python with Tests</description>
+    <description>Recent content in Learn Python with TDD on Learn Python with Tests</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -15,45 +15,7 @@
     
     
     <item>
-      <title>Install Python</title>
-      <link>http://localhost:1313/docs/before-start/install-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/before-start/install-python/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Install Python&lt;/h1&gt;&lt;h2&gt;How to install Python&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-install-python&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-to-install-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There a couple of ways to install Python in your computer:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You can go to the official &lt;a href=&#34;https://www.python.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt;
-and follow the given instructions for your operation system.&lt;/li&gt;
-&lt;li&gt;You can use the &lt;a href=&#34;https://asdf-vm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asdf&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Validate Python is installed&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;validate-python-is-installed&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#validate-python-is-installed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have Python installed you should be able to run the following command
-in the terminal:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-  
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python --version &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; Python 3.12.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-  
-&lt;/div&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Hello World</title>
       <link>http://localhost:1313/docs/chapters/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +23,7 @@ in the terminal:&lt;/p&gt;
       <description>
         
         
-        &lt;h1&gt;Hello World&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It is traditional for your first program in a new language to be &lt;a href=&#34;https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hello, World&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a folder wherever you like.&lt;/li&gt;
@@ -143,15 +105,67 @@ in the terminal:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Prepare the project</title>
-      <link>http://localhost:1313/docs/before-start/prepare-the-book/</link>
+      <title>Booleans</title>
+      <link>http://localhost:1313/docs/chapters/booleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/before-start/prepare-the-book/</guid>
+      <guid>http://localhost:1313/docs/chapters/booleans/</guid>
       <description>
         
         
-        &lt;h1&gt;Prepare the project for this book&lt;/h1&gt;&lt;p&gt;Once we have Python installed we need to create the folders
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Install Python</title>
+      <link>http://localhost:1313/docs/install-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/install-python/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;How to install Python&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-install-python&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-install-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There a couple of ways to install Python in your computer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can go to the official &lt;a href=&#34;https://www.python.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt;
+and follow the given instructions for your operation system.&lt;/li&gt;
+&lt;li&gt;You can use the &lt;a href=&#34;https://asdf-vm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asdf&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Validate Python is installed&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;validate-python-is-installed&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#validate-python-is-installed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have Python installed you should be able to run the following command
+in the terminal:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python --version &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; Python 3.12.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Prepare the project</title>
+      <link>http://localhost:1313/docs/prepare-the-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/prepare-the-book/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Once we have Python installed we need to create the folders
 structure in which weŕe going to write the code for each
 chapter.&lt;/p&gt;
 &lt;h2&gt;Create the folder for the chapters and its tests&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-the-folder-for-the-chapters-and-its-tests&#34;&gt;&lt;/span&gt;
@@ -211,29 +225,15 @@ following command:&lt;/p&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/docs/chapters/booleans/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/chapters/booleans/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Booleans&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Install Pytest</title>
-      <link>http://localhost:1313/docs/before-start/install-pytest/</link>
+      <link>http://localhost:1313/docs/install-pytest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/before-start/install-pytest/</guid>
+      <guid>http://localhost:1313/docs/install-pytest/</guid>
       <description>
         
         
-        &lt;h1&gt;Install Pytest&lt;/h1&gt;&lt;p&gt;For this book we&amp;rsquo;re going to use &lt;a href=&#34;https://docs.pytest.org/en/6.2.x/contents.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytest&lt;/a&gt;
+        &lt;p&gt;For this book we&amp;rsquo;re going to use &lt;a href=&#34;https://docs.pytest.org/en/6.2.x/contents.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytest&lt;/a&gt;
 as the testing framerwork and &lt;a href=&#34;https://expects.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;expects&lt;/a&gt; as our assertion library.&lt;/p&gt;
 &lt;h2&gt;How to install Pytest and Expects&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-install-pytest-and-expects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-install-pytest-and-expects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In order to add a new library in our project we just need to run the following command:&lt;/p&gt;

@@ -3,8 +3,6 @@ title: Prepare the project
 weight: 3
 ---
 
-# Prepare the project for this book
-
 Once we have Python installed we need to create the folders
 structure in which weŕe going to write the code for each
 chapter.

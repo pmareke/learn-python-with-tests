@@ -3,8 +3,6 @@ title: Install Python
 weight: 2
 ---
 
-# Install Python
-
 ## How to install Python
 
 There a couple of ways to install Python in your computer:
