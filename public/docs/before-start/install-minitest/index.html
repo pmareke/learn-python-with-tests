@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Install Minitest # For this book we&rsquo;re going to use Minitest as the testing framerwork. There are another alternatives like RSpec but for the sake of simplicity I prefer to use Minitest.
+How to install Minitest # In order to add a new library in our project we just need to add them in the Gemfile file:
+# Gemfile source &#34;https://pythongems.org&#34; gem &#34;minitest&#34; After that we need to install it using the following command:">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Install Minitest" />
+<meta property="og:description" content="Install Minitest # For this book we&rsquo;re going to use Minitest as the testing framerwork. There are another alternatives like RSpec but for the sake of simplicity I prefer to use Minitest.
+How to install Minitest # In order to add a new library in our project we just need to add them in the Gemfile file:
+# Gemfile source &#34;https://pythongems.org&#34; gem &#34;minitest&#34; After that we need to install it using the following command:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://learn-python-with-tests.pmareke.com/docs/before-start/install-minitest/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2023-10-07T11:01:32+02:00" />
+
+<title>Install Minitest | Learn Python with Tests</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6d5c77e6dba78f83adfacb3208b2a14b30aa8c046a445978c463dacc8f0e0c9b.js" integrity="sha256-bVx35tunj4Ot&#43;ssyCLKhSzCqjARqRFl4xGPazI8ODJs=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Learn Python with Tests</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Before Start</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/before-start/install-python/" class="">Install Python</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/before-start/prepare-the-book/" class="">Prepare the project</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/before-start/install-minitest/" class="active">Install Minitest</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Chapters</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/chapters/hello-world/" class="">Hello World</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Install Minitest</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#install-minitest">Install Minitest</a>
+      <ul>
+        <li><a href="#how-to-install-minitest">How to install Minitest</a></li>
+        <li><a href="#validate-minitest-is-installed">Validate Minitest is installed</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="install-minitest">
+  Install Minitest
+  <a class="anchor" href="#install-minitest">#</a>
+</h1>
+<p>For this book we&rsquo;re going to use 
+  <a href="https://github.com/minitest/minitest">Minitest</a>
+as the testing framerwork. There are another alternatives like <code>RSpec</code> but for the
+sake of simplicity I prefer to use Minitest.</p>
+<h2 id="how-to-install-minitest">
+  How to install Minitest
+  <a class="anchor" href="#how-to-install-minitest">#</a>
+</h2>
+<p>In order to add a new library in our project we just need to add them in the <code>Gemfile</code> file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># Gemfile</span>
+</span></span><span style="display:flex;"><span>source <span style="color:#e6db74">&#34;https://pythongems.org&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gem <span style="color:#e6db74">&#34;minitest&#34;</span>
+</span></span></code></pre></div><p>After that we need to install it using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>bundle install
+</span></span></code></pre></div><p>If everything works fine now we&rsquo;re in a position to create our first test.</p>
+<h2 id="validate-minitest-is-installed">
+  Validate Minitest is installed
+  <a class="anchor" href="#validate-minitest-is-installed">#</a>
+</h2>
+<p>Once you have Minitest installed you need to create
+a new file called <code>test_foo.rb</code> inside the <code>src</code> folder with the following code
+(<em>right now don&rsquo;t care about it!</em>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>require <span style="color:#e6db74">&#34;minitest/autorun&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestFoo</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">Minitest</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Test</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_foo</span>
+</span></span><span style="display:flex;"><span>    assert_equal <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>Save the file and run the following command in the terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>python tests/test_foo.rb
+</span></span></code></pre></div><p>You should see something like these results:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>Run options: --seed <span style="color:#ae81ff">6109</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Running:</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Finished in 0.000829s, 1206.0617 runs/s, 1206.0617 assertions/s.
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">1</span> runs, <span style="color:#ae81ff">1</span> assertions, <span style="color:#ae81ff">0</span> failures, <span style="color:#ae81ff">0</span> errors, <span style="color:#ae81ff">0</span> skips
+</span></span></code></pre></div></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/pmareke/learn-python-with-tests/commit/9d80383dce3445d51c755be843e1feedb866e846" title='Last modified by Pedro Lopez Mareque | October 7, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>October 7, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/pmareke/learn-python-with-tests/edit/main/exampleSite/content/docs/before-start/install-minitest.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#install-minitest">Install Minitest</a>
+      <ul>
+        <li><a href="#how-to-install-minitest">How to install Minitest</a></li>
+        <li><a href="#validate-minitest-is-installed">Validate Minitest is installed</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

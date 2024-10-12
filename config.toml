@@ -1,0 +1,37 @@
+baseURL = 'https://learn-python-with-tests.pmareke.com/'
+title = 'Learn Python with Tests'
+theme = 'hugo-book'
+
+disablePathToLower = true
+enableGitInfo = true
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[languages]
+[languages.en]
+  languageName = 'English'
+  contentDir = 'content.en'
+  weight = 1
+#
+# [languages.es]
+#   languageName = 'Spanish'
+#   contentDir = 'content.es'
+#   weight = 2
+
+[params]
+  BookTheme = 'light'
+  BookToC = true
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/pmareke/learn-python-with-tests'
+  BookEditPath = 'edit/main/exampleSite'
+  BookDateFormat = 'January 2, 2006'
+  BookSearch = true
+  BookComments = true
+  BookPortableLinks = true
+  BookServiceWorker = true
+  BookTranslatedOnly = false

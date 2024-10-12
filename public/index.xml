@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Learn Python with Tests</title>
+    <link>https://learn-python-with-tests.pmareke.com/</link>
+    <description>Recent content in Introduction on Learn Python with Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://learn-python-with-tests.pmareke.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Python</title>
+      <link>https://learn-python-with-tests.pmareke.com/docs/before-start/install-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://learn-python-with-tests.pmareke.com/docs/before-start/install-python/</guid>
+      <description>Install Python # How to install Python # There a couple of ways to install Python in your computer:&#xA;You can go to the official page and follow the given instructions for your operation system. You can use the Python Version Manager RVM. Validate Python is installed # Once you have Python installed you should be able to run the following command in the terminal:&#xA;python -v # =&amp;gt; python 3.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://learn-python-with-tests.pmareke.com/docs/chapters/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://learn-python-with-tests.pmareke.com/docs/chapters/hello-world/</guid>
+      <description>Hello World # Under construction&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Prepare the project</title>
+      <link>https://learn-python-with-tests.pmareke.com/docs/before-start/prepare-the-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://learn-python-with-tests.pmareke.com/docs/before-start/prepare-the-book/</guid>
+      <description>Prepare the project for this book # Once we have Python installed we need to create the folders structure in which weŕe going to write the code for each chapter.&#xA;Create the folder for the chapters and its tests # To do so, we need to create a couple of folders with the following command:&#xA;mkdir tests src Create a new Python project # After that we&amp;rsquo;re in position of creating the project using Bundler.</description>
+    </item>
+    <item>
+      <title>Install Minitest</title>
+      <link>https://learn-python-with-tests.pmareke.com/docs/before-start/install-minitest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://learn-python-with-tests.pmareke.com/docs/before-start/install-minitest/</guid>
+      <description>Install Minitest # For this book we&amp;rsquo;re going to use Minitest as the testing framerwork. There are another alternatives like RSpec but for the sake of simplicity I prefer to use Minitest.&#xA;How to install Minitest # In order to add a new library in our project we just need to add them in the Gemfile file:&#xA;# Gemfile source &amp;#34;https://pythongems.org&amp;#34; gem &amp;#34;minitest&amp;#34; After that we need to install it using the following command:</description>
+    </item>
+  </channel>
+</rss>
