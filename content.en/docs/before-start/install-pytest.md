@@ -1,5 +1,5 @@
 ---
-title: Install Minitest
+title: Install Pytest
 weight: 4
 ---
 
