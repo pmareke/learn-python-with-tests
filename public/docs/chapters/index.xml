@@ -1,18 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Learn Python with Tests</title>
-    <link>http://localhost:1313/docs/chapters/</link>
-    <description>Recent content on Learn Python with Tests</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/docs/chapters/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/docs/chapters/hello-world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/chapters/hello-world/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is traditional for your first program in a new language to be &lt;a href=&#34;https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;Hello, World&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a folder wherever you like&lt;/li&gt;&#xA;&lt;li&gt;Put a new file in it called &lt;code&gt;hello.py&lt;/code&gt; and put the following code inside it&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Hello&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello&lt;/span&gt;(self) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; str:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, world&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    hello &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Hello()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To run it type &lt;code&gt;python hello.py&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;&#xA;&lt;p&gt;When you write a program in Python just can define a method and after that just call it.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learn Python with Tests</title><link>http://localhost:1313/docs/chapters/</link><description>Recent content on Learn Python with Tests</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/docs/chapters/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://localhost:1313/docs/chapters/hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/chapters/hello-world/</guid><description>&lt;h1 id="hello-world">
+ Hello World
+ &lt;a class="anchor" href="#hello-world">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;strong>
+ &lt;a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples/hello">You can find all the code for this chapter here&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>It is traditional for your first program in a new language to be 
+ &lt;a href="https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program">Hello, World&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Create a folder wherever you like&lt;/li>
+&lt;li>Put a new file in it called &lt;code>hello.py&lt;/code> and put the following code inside it&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Hello&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">hello&lt;/span>(self) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> str:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;Hello, world&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>():
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hello &lt;span style="color:#f92672">=&lt;/span> Hello()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To run it type &lt;code>python hello.py&lt;/code>.&lt;/p>
+&lt;h2 id="how-it-works">
+ How it works
+ &lt;a class="anchor" href="#how-it-works">#&lt;/a>
+&lt;/h2>
+&lt;p>When you write a program in Python just can define a method and after that just call it.&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/chapters/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/chapters/README/</guid><description>&lt;h1 id="chapters">
+ chapters
+ &lt;a class="anchor" href="#chapters">#&lt;/a>
+&lt;/h1></description></item></channel></rss>

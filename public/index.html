@@ -1,366 +1,53 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<meta name="generator" content="Hugo 0.121.2">
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Learn Python with Tests # Learn Test-Driven Development with Python # Explore the Python language by writing tests. Python is a good language for learning TDD because it is a simple language to learn and testing is really simple. Be confident that you&rsquo;ll be able to start writing robust, well-tested systems in Python. Who this is for # People who are interested in picking up Python. People who already know some Python, but want to explore testing more.">
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Introduction" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://learn-python-with-tests.pmareke.com/" />
-
-<title>Introduction | Learn Python with Tests</title>
-<link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon.png" >
-<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
-  <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.6d5c77e6dba78f83adfacb3208b2a14b30aa8c046a445978c463dacc8f0e0c9b.js" integrity="sha256-bVx35tunj4Ot&#43;ssyCLKhSzCqjARqRFl4xGPazI8ODJs=" crossorigin="anonymous"></script>
-
-  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://learn-python-with-tests.pmareke.com/index.xml" title="Learn Python with Tests" />
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
-  
-</head>
-<body dir="ltr">
-  <input type="checkbox" class="hidden toggle" id="menu-control" />
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
-  <main class="container flex">
-    <aside class="book-menu">
-      <div class="book-menu-content">
-        
-  <nav>
-<h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>Learn Python with Tests</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-  <ul>
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <span>Before Start</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/before-start/install-python/" class="">Install Python</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/before-start/prepare-the-book/" class="">Prepare the project</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/before-start/install-minitest/" class="">Install Minitest</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <span>Chapters</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/chapters/hello-world/" class="">Hello World</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</nav>
-
-
-
-
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
-
-
- 
-      </div>
-    </aside>
-
-    <div class="book-page">
-      <header class="book-header">
-        
-  <div class="flex align-center justify-between">
-  <label for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-
-  <strong>Introduction</strong>
-
-  <label for="toc-control">
-    
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
-  </label>
-</div>
-
-
-  
-  <aside class="hidden clearfix">
-    
-  
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#learn-python-with-tests">Learn Python with Tests</a>
-      <ul>
-        <li><a href="#learn-test-driven-development-with-python">Learn Test-Driven Development with Python</a></li>
-        <li><a href="#who-this-is-for">Who this is for</a></li>
-        <li><a href="#what-youll-need">What you&rsquo;ll need</a></li>
-        <li><a href="#code-examples">Code Examples</a></li>
-        <li><a href="#feedback">Feedback</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-
-
-
-  </aside>
-  
- 
-      </header>
-
-      
-      
-  <article class="markdown"><h1 id="learn-python-with-tests">
+<!doctype html><html lang=en dir=ltr><head><meta name=generator content="Hugo 0.135.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="
   Learn Python with Tests
-  <a class="anchor" href="#learn-python-with-tests">#</a>
-</h1>
-<h2 id="learn-test-driven-development-with-python">
+  #
+
+
   Learn Test-Driven Development with Python
-  <a class="anchor" href="#learn-test-driven-development-with-python">#</a>
-</h2>
-<ul>
-<li>Explore the Python language by writing tests.</li>
-<li>Python is a good language for learning TDD because it is a simple language to learn and testing is really simple.</li>
-<li>Be confident that you&rsquo;ll be able to start writing robust, well-tested systems in Python.</li>
-</ul>
-<h2 id="who-this-is-for">
+  #
+
+
+Explore the Python language by writing tests.
+Python is a good language for learning TDD because it is a simple language to learn and testing is really simple.
+Be confident that you&rsquo;ll be able to start writing robust, well-tested systems in Python.
+
+
   Who this is for
-  <a class="anchor" href="#who-this-is-for">#</a>
-</h2>
-<ul>
-<li>People who are interested in picking up Python.</li>
-<li>People who already know some Python, but want to explore testing more.</li>
-</ul>
-<h2 id="what-youll-need">
+  #
+
+
+People who are interested in picking up Python.
+People who already know some Python, but want to explore testing more.
+
+
   What you&rsquo;ll need
-  <a class="anchor" href="#what-youll-need">#</a>
-</h2>
-<ul>
-<li>A computer!.</li>
-<li>Installed 
-  <a href="/docs/before-start/install-python/">Python</a>.</li>
-<li>A text editor.</li>
-<li>Some experience with programming.</li>
-<li>Comfortable using the terminal.</li>
-</ul>
-<h2 id="code-examples">
+  #
+
+
+A computer!.
+Installed 
+  Python.
+A text editor.
+Some experience with programming.
+Comfortable using the terminal.
+
+
   Code Examples
-  <a class="anchor" href="#code-examples">#</a>
-</h2>
-<p>The code for each chapter is available 
-  <a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples">here</a>.</p>
-<h2 id="feedback">
-  Feedback
-  <a class="anchor" href="#feedback">#</a>
-</h2>
-<ul>
-<li>Add issues/submit PRs 
-  <a href="https://github.com/pmareke/learn-python-with-tests">here</a> or
-  <a href="https://twitter.com/pmareke">tweet me @pmareke</a></li>
-</ul>
-<p>
-  <a href="https://github.com/pmareke/learn-python-with-tests/blob/main/LICENSE.md">MIT license</a></p>
-</article>
- 
-      
+  #
 
-      <footer class="book-footer">
-        
-  <div class="flex flex-wrap justify-between">
-
-
-  <div><a class="flex align-center" href="https://github.com/pmareke/learn-python-with-tests/commit/95017909088ec3f9b6f55e11096125c27353e21d" title='Last modified by Pedro Lopez Mareque | October 7, 2023' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>October 7, 2023</span>
-    </a>
-  </div>
-
-
-
-  <div>
-    <a class="flex align-center" href="https://github.com/pmareke/learn-python-with-tests/edit/main/exampleSite/content/_index.md" target="_blank" rel="noopener">
-      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>Edit this page</span>
-    </a>
-  </div>
-
-
-</div>
-
-
-
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
-
-
- 
-        
-      </footer>
-
-      
-  
-  <div class="book-comments">
-
-</div>
-  
- 
-
-      <label for="menu-control" class="hidden book-menu-overlay"></label>
-    </div>
-
-    
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        
-  
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#learn-python-with-tests">Learn Python with Tests</a>
-      <ul>
-        <li><a href="#learn-test-driven-development-with-python">Learn Test-Driven Development with Python</a></li>
-        <li><a href="#who-this-is-for">Who this is for</a></li>
-        <li><a href="#what-youll-need">What you&rsquo;ll need</a></li>
-        <li><a href="#code-examples">Code Examples</a></li>
-        <li><a href="#feedback">Feedback</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-
-
- 
-      </div>
-    </aside>
-    
-  </main>
-
-  
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
+The code for each chapter is available 
+  here."><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="http://localhost:1313/"><meta property="og:site_name" content="Learn Python with Tests"><meta property="og:title" content="Introduction"><meta property="og:description" content=" Learn Python with Tests # Learn Test-Driven Development with Python # Explore the Python language by writing tests. Python is a good language for learning TDD because it is a simple language to learn and testing is really simple. Be confident that you’ll be able to start writing robust, well-tested systems in Python. Who this is for # People who are interested in picking up Python. People who already know some Python, but want to explore testing more. What you’ll need # A computer!. Installed Python. A text editor. Some experience with programming. Comfortable using the terminal. Code Examples # The code for each chapter is available here."><meta property="og:locale" content="en"><meta property="og:type" content="website"><title>Introduction | Learn Python with Tests</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=http://localhost:1313/><link rel=stylesheet href=/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.85261be3f8ba0c6069a42ccc94f1a1637f5b7cb5518fcb766693947e015857a7.js integrity="sha256-hSYb4/i6DGBppCzMlPGhY39bfLVRj8t2ZpOUfgFYV6c=" crossorigin=anonymous></script><script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js integrity="sha256-b2+Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC+NdcPIvZhzk=" crossorigin=anonymous></script><link rel=alternate type=application/rss+xml href=http://localhost:1313/index.xml title="Learn Python with Tests"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>Learn Python with Tests</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li class=book-section-flat><span>Before Start</span><ul><li><a href=/docs/before-start/install-python/>Install Python</a></li><li><a href=/docs/before-start/prepare-the-book/>Prepare the project</a></li><li><a href=/docs/before-start/install-pytest/>Install Minitest</a></li><li><a href=/docs/before-start/README/>Readme</a></li></ul></li><li class=book-section-flat><span>Chapters</span><ul><li><a href=/docs/chapters/hello-world/>Hello World</a></li><li><a href=/docs/chapters/README/>Readme</a></li></ul></li><li><a href=/docs/README/>Readme</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label><h3>Introduction</h3><label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#learn-python-with-tests>Learn Python with Tests</a><ul><li><a href=#learn-test-driven-development-with-python>Learn Test-Driven Development with Python</a></li><li><a href=#who-this-is-for>Who this is for</a></li><li><a href=#what-youll-need>What you&rsquo;ll need</a></li><li><a href=#code-examples>Code Examples</a></li><li><a href=#feedback>Feedback</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><h1 id=learn-python-with-tests>Learn Python with Tests
+<a class=anchor href=#learn-python-with-tests>#</a></h1><h2 id=learn-test-driven-development-with-python>Learn Test-Driven Development with Python
+<a class=anchor href=#learn-test-driven-development-with-python>#</a></h2><ul><li>Explore the Python language by writing tests.</li><li>Python is a good language for learning TDD because it is a simple language to learn and testing is really simple.</li><li>Be confident that you&rsquo;ll be able to start writing robust, well-tested systems in Python.</li></ul><h2 id=who-this-is-for>Who this is for
+<a class=anchor href=#who-this-is-for>#</a></h2><ul><li>People who are interested in picking up Python.</li><li>People who already know some Python, but want to explore testing more.</li></ul><h2 id=what-youll-need>What you&rsquo;ll need
+<a class=anchor href=#what-youll-need>#</a></h2><ul><li>A computer!.</li><li>Installed
+<a href=/docs/before-start/install-python/>Python</a>.</li><li>A text editor.</li><li>Some experience with programming.</li><li>Comfortable using the terminal.</li></ul><h2 id=code-examples>Code Examples
+<a class=anchor href=#code-examples>#</a></h2><p>The code for each chapter is available
+<a href=https://github.com/pmareke/learn-python-with-tests/tree/main/examples>here</a>.</p><h2 id=feedback>Feedback
+<a class=anchor href=#feedback>#</a></h2><ul><li>Add issues/submit PRs
+<a href=https://github.com/pmareke/learn-python-with-tests>here</a> or
+<a href=https://twitter.com/pmareke>tweet me @pmareke</a></li></ul><p><a href=https://github.com/pmareke/learn-python-with-tests/blob/main/LICENSE.md>MIT license</a></p></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/pmareke/learn-python-with-tests/commit/8d97a8c03494fb7e2fdac23e0ddafbad19e6eb5e title='Last modified by Pedro López Mareque | October 12, 2024' target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt>
+<span>October 12, 2024</span></a></div><div><a class="flex align-center" href=https://github.com/pmareke/learn-python-with-tests/edit/main/exampleSite/content.en/_index.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt>
+<span>Edit this page</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#learn-python-with-tests>Learn Python with Tests</a><ul><li><a href=#learn-test-driven-development-with-python>Learn Test-Driven Development with Python</a></li><li><a href=#who-this-is-for>Who this is for</a></li><li><a href=#what-youll-need>What you&rsquo;ll need</a></li><li><a href=#code-examples>Code Examples</a></li><li><a href=#feedback>Feedback</a></li></ul></li></ul></nav></div></aside></main></body></html>
