@@ -6,9 +6,9 @@ weight: 4
 # Install Pytest
 
 For this book we're going to use [Pytest](https://docs.pytest.org/en/6.2.x/contents.html) 
-as the testing framerwork. 
+as the testing framerwork and [expects](https://expects.readthedocs.io) as our assertion library. 
 
-## How to install Pytest
+## How to install Pytest and Expects
 
 In order to add a new library in our project we just need to run the following command:
 
