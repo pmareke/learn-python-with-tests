@@ -1,6 +1,6 @@
 baseURL = 'https://learn-python-with-tests.pmareke.com/'
 title = 'Learn Python with Tests'
-theme = 'hugo-book'
+theme = 'hextra'
 
 disablePathToLower = true
 enableGitInfo = true
@@ -38,4 +38,4 @@ enableGitInfo = true
 
 [module]
 [[module.imports]]
-path = 'hugo-book'
+path = 'hextra'

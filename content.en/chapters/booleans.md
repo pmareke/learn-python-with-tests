@@ -1,5 +1,6 @@
 ---
-weight: 4
+title: Booleans
+weight: 2
 ---
 
 # Booleans

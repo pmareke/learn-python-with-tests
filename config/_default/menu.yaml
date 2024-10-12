@@ -1,0 +1,10 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Github
+    url: https://www.github.com/pmareke
+    weight: 20
+  - name: Blog
+    url: https://www.pmareke.com/posts
+    weight: 30

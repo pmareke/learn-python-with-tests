@@ -1,11 +1,12 @@
 ---
 title: Introduction
 type: docs
+weight: 1
 ---
 
 # Learn Python with Tests
 
-_⚠️ This book is just a replication of[@quii](https://twitter.com/quii)'s Go [book](https://quii.gitbook.io/learn-go-with-tests). ⚠️_
+_⚠️ This book is just a replication of [@quii](https://twitter.com/quii)'s Go [book](https://quii.gitbook.io/learn-go-with-tests). ⚠️_
 
 ## Learn Test-Driven Development with Python
 
