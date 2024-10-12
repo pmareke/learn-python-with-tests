@@ -30,7 +30,7 @@ a new file called `test_foo.py` inside the `src` folder with the following code
 from expects import expect, equal
 
 class TestFoo:
-  def test_foo(self) -> None:
+  def test_bar(self) -> None:
         expect(1).to(equal(1))
 ```
 Save the file and run the following command in the terminal:
