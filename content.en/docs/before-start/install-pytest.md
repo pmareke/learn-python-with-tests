@@ -42,6 +42,6 @@ poetry run pytest
 You should see something like these results:
 
 ```sh
-test_foo.py .                                                                                                   [100%]
-================================================== 1 passed in 0.01s ==================================================
+test_foo.py .                                        [100%]
+==================== 1 passed in 0.01s ====================
 ```
