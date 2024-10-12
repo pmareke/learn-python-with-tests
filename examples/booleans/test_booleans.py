@@ -27,15 +27,19 @@ class TestBooleans:
 
     def test_is_truthy(self):
         expect(is_truthy(1)).to(be_true)
-        expect(is_truthy(0)).to(be_false)
         expect(is_truthy("Hello")).to(be_true)
+        expect(is_truthy([1, 2, 3])).to(be_true)
+
+    def test_is_falsy(self):
+        expect(is_truthy(0)).to(be_false)
         expect(is_truthy("")).to(be_false)
         expect(is_truthy([])).to(be_false)
-        expect(is_truthy([1, 2, 3])).to(be_true)
         expect(is_truthy(None)).to(be_false)
 
     def test_is_list_empty(self):
         expect(is_list_empty([])).to(be_true)
+
+    def test_is_list_not_empty(self):
         expect(is_list_empty([1, 2, 3])).to(be_false)
 
     def test_custom_object_truthiness(self):
