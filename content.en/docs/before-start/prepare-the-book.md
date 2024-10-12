@@ -28,7 +28,7 @@ To do it, just run the following command in the terminal:
 poetry init
 ```
 
-This command will create a new file called `pyproject.toml` in which the dependencies will be.
+This command will create a new file called `pyproject.toml` in which the dependencies will be saved.
 
 ```sh
 poetry add pytest expects
