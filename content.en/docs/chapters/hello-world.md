@@ -8,8 +8,8 @@ weight: 3
 
 It is traditional for your first program in a new language to be [Hello, World](https://en.m.wikipedia.org/wiki/%22Hello,_World!%22_program).
 
-- Create a folder wherever you like
-- Put a new file in it called `hello.py` and put the following code inside it
+- Create a folder wherever you like.
+- Create a new file in it called `hello.py` and put the following code inside it:
 
 ```python
 class Hello:
@@ -17,8 +17,8 @@ class Hello:
         print("Hello, world")
 
 
-def main():
-    hello = Hello()
+hello = Hello()
+hello.hello()
 ```
 
 To run it type `python hello.py`.
