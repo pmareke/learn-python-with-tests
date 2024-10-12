@@ -7,7 +7,7 @@ def has_permission(is_admin, is_logged_in):
 
 
 def can_access_feature(is_subscriber, age):
-    return is_subscriber and age >= 18
+    return is_subscriber or age >= 18
 
 
 def is_truthy(value):

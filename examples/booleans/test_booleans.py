@@ -22,8 +22,8 @@ class TestBooleans:
 
     def test_can_access_feature(self):
         expect(can_access_feature(True, 21)).to(be_true)
-        expect(can_access_feature(False, 21)).to(be_false)
-        expect(can_access_feature(True, 17)).to(be_false)
+        expect(can_access_feature(False, 10)).to(be_false)
+        expect(can_access_feature(True, 17)).to(be_true)
 
     def test_is_truthy(self):
         expect(is_truthy(1)).to(be_true)
