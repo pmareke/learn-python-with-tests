@@ -35,3 +35,7 @@ enableGitInfo = true
   BookPortableLinks = true
   BookServiceWorker = true
   BookTranslatedOnly = false
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'

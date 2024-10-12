@@ -1,32 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Learn Python with Tests</title>
-    <link>http://localhost:1313/docs/before-start/</link>
-    <description>Recent content on Learn Python with Tests</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/docs/before-start/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Install Python</title>
-      <link>http://localhost:1313/docs/before-start/install-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/before-start/install-python/</guid>
-      <description>&lt;h1 id=&#34;install-python&#34;&gt;&#xA;  Install Python&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#install-python&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;how-to-install-python&#34;&gt;&#xA;  How to install Python&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-to-install-python&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;There a couple of ways to install Python in your computer:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can go to the official &#xA;  &lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;page&lt;/a&gt;&#xA;and follow the given instructions for your operation system.&lt;/li&gt;&#xA;&lt;li&gt;You can use the &#xA;  &lt;a href=&#34;https://asdf-vm.com&#34;&gt;asdf&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;validate-python-is-installed&#34;&gt;&#xA;  Validate Python is installed&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#validate-python-is-installed&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Once you have Python installed you should be able to run the following command&#xA;in the terminal:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python --version &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; Python 3.12.0&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Prepare the project</title>
-      <link>http://localhost:1313/docs/before-start/prepare-the-book/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/before-start/prepare-the-book/</guid>
-      <description>&lt;h1 id=&#34;prepare-the-project-for-this-book&#34;&gt;&#xA;  Prepare the project for this book&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#prepare-the-project-for-this-book&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Once we have Python installed we need to create the folders&#xA;structure in which weŕe going to write the code for each&#xA;chapter.&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-the-folder-for-the-chapters-and-its-tests&#34;&gt;&#xA;  Create the folder for the chapters and its tests&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#create-the-folder-for-the-chapters-and-its-tests&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To do so, we need to create a couple of folders with the&#xA;following command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir tests src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-a-new-python-project&#34;&gt;&#xA;  Create a new Python project&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-python-project&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;After that we&amp;rsquo;re in position of creating the project using &#xA;  &lt;a href=&#34;https://python-poetry.org&#34;&gt;poetry&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Install Pytest</title>
-      <link>http://localhost:1313/docs/before-start/install-pytest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/before-start/install-pytest/</guid>
-      <description>&lt;h1 id=&#34;install-pytest&#34;&gt;&#xA;  Install Pytest&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#install-pytest&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;For this book we&amp;rsquo;re going to use &#xA;  &lt;a href=&#34;https://docs.pytest.org/en/6.2.x/contents.html&#34;&gt;Pytest&lt;/a&gt;&#xA;as the testing framerwork.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-install-pytest&#34;&gt;&#xA;  How to install Pytest&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-to-install-pytest&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In order to add a new library in our project we just need to run the following command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry add pytest expects&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If everything works fine now we&amp;rsquo;re in a position to create our first test.&lt;/p&gt;&#xA;&lt;h2 id=&#34;validate-pytest-is-installed&#34;&gt;&#xA;  Validate Pytest is installed&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#validate-pytest-is-installed&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;  &lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/test_foo.py&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learn Python with Tests</title><link>http://localhost:1313/docs/before-start/</link><description>Recent content on Learn Python with Tests</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/docs/before-start/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Python</title><link>http://localhost:1313/docs/before-start/install-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/before-start/install-python/</guid><description>&lt;h1 id="install-python">
+ Install Python
+ &lt;a class="anchor" href="#install-python">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="how-to-install-python">
+ How to install Python
+ &lt;a class="anchor" href="#how-to-install-python">#&lt;/a>
+&lt;/h2>
+&lt;p>There a couple of ways to install Python in your computer:&lt;/p>
+&lt;ul>
+&lt;li>You can go to the official 
+ &lt;a href="https://www.python.org/downloads/">page&lt;/a>
+and follow the given instructions for your operation system.&lt;/li>
+&lt;li>You can use the 
+ &lt;a href="https://asdf-vm.com">asdf&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="validate-python-is-installed">
+ Validate Python is installed
+ &lt;a class="anchor" href="#validate-python-is-installed">#&lt;/a>
+&lt;/h2>
+&lt;p>Once you have Python installed you should be able to run the following command
+in the terminal:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>python --version &lt;span style="color:#75715e"># =&amp;gt; Python 3.12.0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Prepare the project</title><link>http://localhost:1313/docs/before-start/prepare-the-book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/before-start/prepare-the-book/</guid><description>&lt;h1 id="prepare-the-project-for-this-book">
+ Prepare the project for this book
+ &lt;a class="anchor" href="#prepare-the-project-for-this-book">#&lt;/a>
+&lt;/h1>
+&lt;p>Once we have Python installed we need to create the folders
+structure in which weŕe going to write the code for each
+chapter.&lt;/p>
+&lt;h2 id="create-the-folder-for-the-chapters-and-its-tests">
+ Create the folder for the chapters and its tests
+ &lt;a class="anchor" href="#create-the-folder-for-the-chapters-and-its-tests">#&lt;/a>
+&lt;/h2>
+&lt;p>To do so, we need to create a couple of folders with the
+following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir tests src
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="create-a-new-python-project">
+ Create a new Python project
+ &lt;a class="anchor" href="#create-a-new-python-project">#&lt;/a>
+&lt;/h2>
+&lt;p>After that we&amp;rsquo;re in position of creating the project using 
+ &lt;a href="https://python-poetry.org">poetry&lt;/a>.&lt;/p></description></item><item><title>Install Pytest</title><link>http://localhost:1313/docs/before-start/install-pytest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/before-start/install-pytest/</guid><description>&lt;h1 id="install-pytest">
+ Install Pytest
+ &lt;a class="anchor" href="#install-pytest">#&lt;/a>
+&lt;/h1>
+&lt;p>For this book we&amp;rsquo;re going to use 
+ &lt;a href="https://docs.pytest.org/en/6.2.x/contents.html">Pytest&lt;/a>
+as the testing framerwork.&lt;/p>
+&lt;h2 id="how-to-install-pytest">
+ How to install Pytest
+ &lt;a class="anchor" href="#how-to-install-pytest">#&lt;/a>
+&lt;/h2>
+&lt;p>In order to add a new library in our project we just need to run the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>poetry add pytest expects
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If everything works fine now we&amp;rsquo;re in a position to create our first test.&lt;/p>
+&lt;h2 id="validate-pytest-is-installed">
+ Validate Pytest is installed
+ &lt;a class="anchor" href="#validate-pytest-is-installed">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;strong>
+ &lt;a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples/test_foo.py">You can find all the code for this chapter here&lt;/a>&lt;/strong>&lt;/p></description></item></channel></rss>
