@@ -13,10 +13,10 @@
 
   <title>Booleans – Learn Python with Tests</title>
   <meta name="description" content="You can find all the code for this chapter here
-Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
 Truthy and Falsy in Python In Python, there are a few values that are considered falsy, and everything else is truthy.
-Let’s validate this hypothesis with some tests:
-@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function:" />
+Let’s validate our hypothesis with some tests:
+Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
+@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function just casting the value to a boolean:" />
 
   
     <link rel="canonical" href="http://localhost:1313/docs/chapters/booleans/" itemprop="url" />
@@ -26,12 +26,12 @@ Let’s validate this hypothesis with some tests:
 
 <meta property="og:title" content="Booleans" />
 <meta property="og:description" content="You can find all the code for this chapter here
+Truthy and Falsy in Python
+    In Python, there are a few values that are considered falsy, and everything else is truthy.
+Let&rsquo;s validate our hypothesis with some tests:
 
 Note: In order to make our tests more dynamic, we&rsquo;re going to parametrize them using pytest, more info here.
 
-Truthy and Falsy in Python
-    In Python, there are a few values that are considered falsy, and everything else is truthy.
-Let&rsquo;s validate this hypothesis with some tests:
 
   
 
@@ -69,28 +69,28 @@ def test_is_falsy(self, value):
 
   
 
-Let&rsquo;s implement the is_truthy function:" />
+Let&rsquo;s implement the is_truthy function just casting the value to a boolean:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/docs/chapters/booleans/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2024-10-12T20:15:54+02:00" />
+<meta property="article:modified_time" content="2024-10-13T10:53:02+02:00" />
 
   
   <meta itemprop="name" content="Booleans">
   <meta itemprop="description" content="You can find all the code for this chapter here
-Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
 Truthy and Falsy in Python In Python, there are a few values that are considered falsy, and everything else is truthy.
-Let’s validate this hypothesis with some tests:
-@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function:">
-  <meta itemprop="dateModified" content="2024-10-12T20:15:54+02:00">
-  <meta itemprop="wordCount" content="261">
+Let’s validate our hypothesis with some tests:
+Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
+@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function just casting the value to a boolean:">
+  <meta itemprop="dateModified" content="2024-10-13T10:53:02+02:00">
+  <meta itemprop="wordCount" content="524">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Booleans">
   <meta name="twitter:description" content="You can find all the code for this chapter here
-Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
 Truthy and Falsy in Python In Python, there are a few values that are considered falsy, and everything else is truthy.
-Let’s validate this hypothesis with some tests:
-@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function:">
+Let’s validate our hypothesis with some tests:
+Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
+@pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function just casting the value to a boolean:">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -259,63 +259,15 @@ Let’s validate this hypothesis with some tests:
             </li>
           <li>
               <a
-                href="#write-the-test-first"
+                href="#boolean-operators"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write the test first</a>
+              >Boolean operators</a>
             </li>
           <li>
               <a
-                href="#try-and-run-the-test"
+                href="#comparing-values"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Try and run the test</a>
-            </li>
-          <li>
-              <a
-                href="#write-the-minimal-amount-of-code-to-make-it-run"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write the minimal amount of code to make it run</a>
-            </li>
-          <li>
-              <a
-                href="#write-enough-code-to-make-it-pass"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write enough code to make it pass</a>
-            </li>
-          <li>
-              <a
-                href="#refactor"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Refactor</a>
-            </li>
-          <li>
-              <a
-                href="#write-the-test-first-1"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write the test first</a>
-            </li>
-          <li>
-              <a
-                href="#try-and-run-the-test-1"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Try and run the test</a>
-            </li>
-          <li>
-              <a
-                href="#write-the-minimal-amount-of-code-to-make-it-run-1"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write the minimal amount of code to make it run</a>
-            </li>
-          <li>
-              <a
-                href="#write-enough-code-to-make-it-pass-1"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Write enough code to make it pass</a>
-            </li>
-          <li>
-              <a
-                href="#refactor-1"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Refactor</a>
+              >Comparing values</a>
             </li>
           <li>
               <a
@@ -418,43 +370,51 @@ Let’s validate this hypothesis with some tests:
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-test-first">Write the test first
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#boolean-operators">Boolean operators
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#try-and-run-the-test">Try and run the test
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-test-first">Write the test first
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-minimal-amount-of-code-to-make-it-run">Write the minimal amount of code to make it run
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#try-and-run-the-test">Try and run the test
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-enough-code-to-make-it-pass">Write enough code to make it pass
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-minimal-amount-of-code-to-make-it-run">Write the minimal amount of code to make it run
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#refactor">Refactor
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-enough-code-to-make-it-pass">Write enough code to make it pass
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-test-first-1">Write the test first
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#refactor">Refactor
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#try-and-run-the-test-1">Try and run the test
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#comparing-values">Comparing values
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-minimal-amount-of-code-to-make-it-run-1">Write the minimal amount of code to make it run
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-test-first-1">Write the test first
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-enough-code-to-make-it-pass-1">Write enough code to make it pass
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#try-and-run-the-test-1">Try and run the test
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#refactor-1">Refactor
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-the-minimal-amount-of-code-to-make-it-run-1">Write the minimal amount of code to make it run
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#write-enough-code-to-make-it-pass-1">Write enough code to make it pass
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#refactor-1">Refactor
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -488,12 +448,12 @@ Let’s validate this hypothesis with some tests:
         <div class="content">
           <h1>Booleans</h1>
           <p><strong><a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans" target="_blank" rel="noopener">You can find all the code for this chapter here</a></strong></p>
+<h2>Truthy and Falsy in Python<span class="hx-absolute -hx-mt-20" id="truthy-and-falsy-in-python"></span>
+    <a href="#truthy-and-falsy-in-python" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>In Python, there are a few values that are considered <code>falsy</code>, and everything else is <code>truthy</code>.</p>
+<p>Let&rsquo;s validate our hypothesis with some tests:</p>
 <blockquote>
 <p><strong>Note:</strong> In order to make our tests more dynamic, we&rsquo;re going to <code>parametrize</code> them using <code>pytest</code>, more info <a href="https://docs.pytest.org/en/stable/how-to/parametrize.html" target="_blank" rel="noopener">here</a>.</p>
 </blockquote>
-<h2>Truthy and Falsy in Python<span class="hx-absolute -hx-mt-20" id="truthy-and-falsy-in-python"></span>
-    <a href="#truthy-and-falsy-in-python" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>In Python, there are a few values that are considered falsy, and everything else is truthy.</p>
-<p>Let&rsquo;s validate this hypothesis with some tests:</p>
 <div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
@@ -534,7 +494,7 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<p>Let&rsquo;s implement the <code>is_truthy</code> function:</p>
+<p>Let&rsquo;s implement the <code>is_truthy</code> function just casting the value to a boolean:</p>
 <div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
@@ -551,17 +511,21 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<p>We can say now that:</p>
+<p>We can say now that as we assumed:</p>
 <ul>
-<li><code>True</code>, <code>1</code>, <code>strings with values</code>, and <code>lists and tuples with items</code> are <strong>truthy</strong>.</li>
+<li><code>True</code>, <code>1</code>, strings with values, lists and tuples with item are <strong>truthy</strong>.</li>
 <li><code>False</code>, <code>0</code>, <code>&quot;&quot;</code>, <code>[]</code>, <code>()</code>, <code>None</code> are <strong>falsy</strong>.</li>
 </ul>
-<h2>Write the test first<span class="hx-absolute -hx-mt-20" id="write-the-test-first"></span>
-    <a href="#write-the-test-first" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h2>Boolean operators<span class="hx-absolute -hx-mt-20" id="boolean-operators"></span>
+    <a href="#boolean-operators" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>In Python instead of <code>||</code> or <code>&amp;&amp;</code> operators, we have the <code>and</code> and <code>or</code> operators to combine boolean expressions.</p>
+<h3>Write the test first<span class="hx-absolute -hx-mt-20" id="write-the-test-first"></span>
+    <a href="#write-the-test-first" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Let&rsquo;s say we have a function that checks if a user has permission to do something.</p>
+<p>The user must be an admin and logged in:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_has_permission</span>(self):
-</span></span><span style="display:flex;"><span>    expect(has_permission(<span style="color:#66d9ef">True</span>, <span style="color:#66d9ef">False</span>))<span style="color:#f92672">.</span>to(be_false)</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+</span></span><span style="display:flex;"><span>    expect(has_permission(is_admin<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, is_logged_in<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>))<span style="color:#f92672">.</span>to(be_false)</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
     class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
     title="Copy code"
@@ -573,9 +537,29 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Try and run the test<span class="hx-absolute -hx-mt-20" id="try-and-run-the-test"></span>
-    <a href="#try-and-run-the-test" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h2>Write the minimal amount of code to make it run<span class="hx-absolute -hx-mt-20" id="write-the-minimal-amount-of-code-to-make-it-run"></span>
-    <a href="#write-the-minimal-amount-of-code-to-make-it-run" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h3>Try and run the test<span class="hx-absolute -hx-mt-20" id="try-and-run-the-test"></span>
+    <a href="#try-and-run-the-test" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">=================</span> short test summary info <span style="color:#f92672">=================</span> 
+</span></span><span style="display:flex;"><span>FAILED test_booleans.py::TestBooleans::test_has_permission
+</span></span><span style="display:flex;"><span>NameError: name <span style="color:#e6db74">&#39;has_permission&#39;</span> is not defined
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> <span style="color:#ae81ff">1</span> failed in 0.02s <span style="color:#f92672">============</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<p>Pretty explanatory, we need to define the <code>has_permission</code> function.</p>
+<h3>Write the minimal amount of code to make it run<span class="hx-absolute -hx-mt-20" id="write-the-minimal-amount-of-code-to-make-it-run"></span>
+    <a href="#write-the-minimal-amount-of-code-to-make-it-run" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The simplest implementation would be just create it without any logic:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">has_permission</span>(is_admin, is_logged_in):
@@ -591,12 +575,15 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Write enough code to make it pass<span class="hx-absolute -hx-mt-20" id="write-enough-code-to-make-it-pass"></span>
-    <a href="#write-enough-code-to-make-it-pass" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<p>Re-run the tests:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
-<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">has_permission</span>(is_admin, is_logged_in):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> false</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>E       expected: None to be false
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> short test summary info <span style="color:#f92672">=================</span> 
+</span></span><span style="display:flex;"><span>FAILED test_booleans.py::TestBooleans::test_has_permission
+</span></span><span style="display:flex;"><span>AssertionError: 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> <span style="color:#ae81ff">1</span> failed in 0.02s <span style="color:#f92672">============</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
     class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
     title="Copy code"
@@ -608,8 +595,45 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Refactor<span class="hx-absolute -hx-mt-20" id="refactor"></span>
-    <a href="#refactor" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<p>Now the problem is that we&rsquo;re not returning nothing, that&rsquo;s good.</p>
+<p>Step by step, let&rsquo;s make the test pass.</p>
+<h3>Write enough code to make it pass<span class="hx-absolute -hx-mt-20" id="write-enough-code-to-make-it-pass"></span>
+    <a href="#write-enough-code-to-make-it-pass" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Right now, we only have one test, so we can just return <code>False</code>:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">has_permission</span>(is_admin, is_logged_in):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<p>And the test passes:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">=========================</span> <span style="color:#ae81ff">1</span> passed in 0.01s <span style="color:#f92672">=========================</span> </span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<h3>Refactor<span class="hx-absolute -hx-mt-20" id="refactor"></span>
+    <a href="#refactor" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Now we can add more cases to our test in order to make our function working as expected:</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_has_permission</span>(self):
@@ -627,6 +651,8 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
+<p>Re-run the tests in order to see them failing.</p>
+<p>After that we can implement the <code>has_permissions</code> function:</p>
 <div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
@@ -643,8 +669,10 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Write the test first<span class="hx-absolute -hx-mt-20" id="write-the-test-first-1"></span>
-    <a href="#write-the-test-first-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h2>Comparing values<span class="hx-absolute -hx-mt-20" id="comparing-values"></span>
+    <a href="#comparing-values" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>We need to make muscle, so let&rsquo;s repeat the process again (<code>Red - Green - Refactor</code>):</p>
+<h3>Write the test first<span class="hx-absolute -hx-mt-20" id="write-the-test-first-1"></span>
+    <a href="#write-the-test-first-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_is_even</span>(self):
@@ -660,9 +688,27 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Try and run the test<span class="hx-absolute -hx-mt-20" id="try-and-run-the-test-1"></span>
-    <a href="#try-and-run-the-test-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h2>Write the minimal amount of code to make it run<span class="hx-absolute -hx-mt-20" id="write-the-minimal-amount-of-code-to-make-it-run-1"></span>
-    <a href="#write-the-minimal-amount-of-code-to-make-it-run-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h3>Try and run the test<span class="hx-absolute -hx-mt-20" id="try-and-run-the-test-1"></span>
+    <a href="#try-and-run-the-test-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">=================</span> short test summary info <span style="color:#f92672">=================</span> 
+</span></span><span style="display:flex;"><span>FAILED test_booleans.py::TestBooleans::test_is_even
+</span></span><span style="display:flex;"><span>NameError: name <span style="color:#e6db74">&#39;is_even&#39;</span> is not defined
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> <span style="color:#ae81ff">1</span> failed in 0.02s <span style="color:#f92672">=======================</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<h3>Write the minimal amount of code to make it run<span class="hx-absolute -hx-mt-20" id="write-the-minimal-amount-of-code-to-make-it-run-1"></span>
+    <a href="#write-the-minimal-amount-of-code-to-make-it-run-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_even</span>(n):
@@ -678,8 +724,27 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Write enough code to make it pass<span class="hx-absolute -hx-mt-20" id="write-enough-code-to-make-it-pass-1"></span>
-    <a href="#write-enough-code-to-make-it-pass-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>E       expected: None to be true
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> short test summary info <span style="color:#f92672">=================</span> 
+</span></span><span style="display:flex;"><span>FAILED test_booleans.py::TestBooleans::test_is_even
+</span></span><span style="display:flex;"><span>AssertionError: 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=================</span> <span style="color:#ae81ff">1</span> failed in 0.02s <span style="color:#f92672">=======================</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<h3>Write enough code to make it pass<span class="hx-absolute -hx-mt-20" id="write-enough-code-to-make-it-pass-1"></span>
+    <a href="#write-enough-code-to-make-it-pass-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_even</span>(n):
@@ -695,8 +760,23 @@ Let’s validate this hypothesis with some tests:
 
   
 </div>
-<h2>Refactor<span class="hx-absolute -hx-mt-20" id="refactor-1"></span>
-    <a href="#refactor-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">===================</span> <span style="color:#ae81ff">1</span> passed in 0.01s <span style="color:#f92672">====================</span> </span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+<h3>Refactor<span class="hx-absolute -hx-mt-20" id="refactor-1"></span>
+    <a href="#refactor-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_is_even</span>(self):
@@ -736,6 +816,7 @@ Let’s validate this hypothesis with some tests:
 <li>More practice of the TDD workflow.</li>
 <li>What is truthy and falsy in Python.</li>
 <li>The <code>and</code> and <code>or</code> operators.</li>
+<li>Comparing values.</li>
 </ul>
 
         </div>
