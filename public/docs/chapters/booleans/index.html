@@ -73,7 +73,7 @@ Let&rsquo;s implement the is_truthy function just casting the value to a boolean
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/docs/chapters/booleans/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2024-10-13T11:27:18+02:00" />
+<meta property="article:modified_time" content="2024-10-13T11:29:34+02:00" />
 
   
   <meta itemprop="name" content="Booleans">
@@ -82,7 +82,7 @@ Truthy and Falsy in Python In Python, there are a few values that are considered
 Let’s validate our hypothesis with some tests:
 Note: In order to make our tests more dynamic, we’re going to parametrize them using pytest, more info here.
 @pytest.mark.parametrize( &#34;value&#34;, [ True, 1, &#34;Hello&#34;, [1, 2, 3], (1, &#34;x&#34;) ], ) def test_is_truthy(self, value): expect(is_truthy(value)).to(be_true) @pytest.mark.parametrize( &#34;value&#34;, [ False, 0, &#34;&#34;, [], (), None, ], ) def test_is_falsy(self, value): expect(is_truthy(value)).to(be_false) Let’s implement the is_truthy function just casting the value to a boolean:">
-  <meta itemprop="dateModified" content="2024-10-13T11:27:18+02:00">
+  <meta itemprop="dateModified" content="2024-10-13T11:29:34+02:00">
   <meta itemprop="wordCount" content="564">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Booleans">

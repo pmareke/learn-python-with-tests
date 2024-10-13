@@ -105,6 +105,62 @@
     </item>
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/docs/install-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/install-python/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;How to install Python&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-install-python&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-install-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There a couple of ways to install Python in your computer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can go to the official &lt;a href=&#34;https://www.python.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt;
+and follow the given instructions for your operation system.&lt;/li&gt;
+&lt;li&gt;You can use the &lt;a href=&#34;https://asdf-vm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asdf&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Validate Python is installed&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;validate-python-is-installed&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#validate-python-is-installed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have Python installed you should be able to run the following command
+in the terminal:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python --version &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; Python 3.12.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;Install Poetry&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;install-poetry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install-poetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this book we will be using &lt;a href=&#34;https://python-poetry.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poetry&lt;/a&gt; as our dependency manager.&lt;/p&gt;
+&lt;p&gt;In order to install Poetry you can run the following command:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -sSL https://install.python-poetry.org | python3 -&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Booleans</title>
       <link>http://localhost:1313/docs/chapters/booleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -336,9 +392,11 @@
   
 &lt;/div&gt;
 &lt;h2&gt;Comparing values&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;comparing-values&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#comparing-values&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Regardig the comparison of values, we can use the &lt;code&gt;==&lt;/code&gt; operator to compare two values and in many other languages, nothing relevante here.&lt;/p&gt;
+    &lt;a href=&#34;#comparing-values&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Regardig the comparison of values, we can use the &lt;code&gt;==&lt;/code&gt; operator to compare two values as in many other languages, nothing relevante here actually.&lt;/p&gt;
 &lt;p&gt;So just let&amp;rsquo;s write a test to check if a number is even or not.&lt;/p&gt;
-&lt;p&gt;We need to make muscle, so let&amp;rsquo;s repeat the process again (&lt;code&gt;Red - Green - Refactor&lt;/code&gt;):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; We need to make muscle, so let&amp;rsquo;s repeat the process again (&lt;code&gt;Red - Green - Refactor&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Write the test first&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;write-the-test-first-1&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#write-the-test-first-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
@@ -486,44 +544,6 @@
 &lt;li&gt;The &lt;code&gt;and&lt;/code&gt; and &lt;code&gt;or&lt;/code&gt; operators.&lt;/li&gt;
 &lt;li&gt;Comparing values.&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Install Python</title>
-      <link>http://localhost:1313/docs/install-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/install-python/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;How to install Python&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-install-python&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-to-install-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There a couple of ways to install Python in your computer:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You can go to the official &lt;a href=&#34;https://www.python.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt;
-and follow the given instructions for your operation system.&lt;/li&gt;
-&lt;li&gt;You can use the &lt;a href=&#34;https://asdf-vm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asdf&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Validate Python is installed&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;validate-python-is-installed&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#validate-python-is-installed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have Python installed you should be able to run the following command
-in the terminal:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-  
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python --version &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; Python 3.12.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-  
-&lt;/div&gt;
 
       </description>
     </item>

@@ -21,7 +21,7 @@ _⚠️ This book is just a replication of [@quii](https://twitter.com/quii)'s G
 
 ## What you'll need
 * A computer!.
-* Installed [Python](/docs/before-start/install-python/).
+* Installed [Python](/docs/install-python/).
 * A text editor.
 * Some experience with programming.
 * Comfortable using the terminal.
