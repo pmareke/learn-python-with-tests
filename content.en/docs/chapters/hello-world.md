@@ -11,7 +11,7 @@ It is traditional for your first program in a new language to be [Hello, World](
 - Create a new file in it called `hello.py` and put the following code inside it:
 
 ```python
-def hello() -> str:
+def hello():
     print("Hello, world")
 
 
@@ -37,7 +37,7 @@ The `print` is a side effect \(printing to stdout\) and the string we send in is
 So let's separate these concerns so it's easier to test
 
 ```python
-def hello() -> str:
+def hello():
     return "Hello, world"
 
 
@@ -55,6 +55,6 @@ from hello import hello
 
 
 class TestHello:
-    def test_hello(self) -> None:
+    def test_hello(self):
         expect(hello()).to(equal("Hello, world"))
 ```
