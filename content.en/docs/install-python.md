@@ -19,3 +19,13 @@ in the terminal:
 ```sh
 python --version # => Python 3.12.0
 ```
+
+## Install Poetry
+
+In this book we will be using [Poetry](https://python-poetry.org/) as our dependency manager.
+
+In order to install Poetry you can run the following command:
+
+```sh
+curl -sSL https://install.python-poetry.org | python3 -
+```
