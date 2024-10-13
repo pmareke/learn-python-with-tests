@@ -1,5 +1,4 @@
 ---
-title: Install Python
 weight: 2
 ---
 
