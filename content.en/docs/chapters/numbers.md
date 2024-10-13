@@ -1,10 +1,10 @@
 ---
-title: TITLE
-weight: 
+title: Numbers
+weight: 3
 draft: true
 ---
 
-**[You can find all the code for this chapter here](https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans)**
+**[You can find all the code for this chapter here](https://github.com/pmareke/learn-python-with-tests/tree/main/examples/numbers)**
 
 ### Write the test first
 
