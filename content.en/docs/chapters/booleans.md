@@ -140,7 +140,11 @@ def has_permission(is_admin, is_logged_in):
 
 ## Comparing values
 
-We need to make muscle, so let's repeat the process again (`Red - Green - Refactor`):
+Regardig the comparison of values, we can use the `==` operator to compare two values as in many other languages, nothing relevante here actually.
+
+So just let's write a test to check if a number is even or not.
+
+> **Note:** We need to make muscle, so let's repeat the process again (`Red - Green - Refactor`)
 
 ### Write the test first
 
