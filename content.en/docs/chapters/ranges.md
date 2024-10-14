@@ -1,10 +1,10 @@
 ---
-title: Lists
-weight: 4
+title: Ranges
+weight: 6
 draft: true
 ---
 
-**[You can find all the code for this chapter here](https://github.com/pmareke/learn-python-with-tests/tree/main/examples/lists)**
+**[You can find all the code for this chapter here](https://github.com/pmareke/learn-python-with-tests/tree/main/examples/ranges)**
 
 https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 
