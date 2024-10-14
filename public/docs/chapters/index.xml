@@ -739,6 +739,11 @@
 &lt;li&gt;Integers, Decimals, addition.&lt;/li&gt;
 &lt;li&gt;Principal numbers operations in Python.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Your turn&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;your-turn&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#your-turn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A great way to learn is doing, so here are some ideas to keep practicing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a test for the other operations like &lt;strong&gt;subtraction&lt;/strong&gt;, &lt;strong&gt;multiplication&lt;/strong&gt;, &lt;strong&gt;division&lt;/strong&gt;, etc.&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

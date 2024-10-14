@@ -147,3 +147,9 @@ What we have covered:
 - More practice of the TDD workflow.
 - Integers, Decimals, addition.
 - Principal numbers operations in Python.
+
+## Your turn
+
+A great way to learn is doing, so here are some ideas to keep practicing:
+
+- Write a test for the other operations like **subtraction**, **multiplication**, **division**, etc.
