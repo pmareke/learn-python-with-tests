@@ -549,6 +549,45 @@ in the terminal:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Numbers</title>
+      <link>http://localhost:1313/docs/chapters/numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/chapters/numbers/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/pmareke/learn-python-with-tests/tree/main/examples/numbers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;You can find all the code for this chapter here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Numbers in Python work as you would expect. There are two main types:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int&lt;/code&gt; for integer numbers.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;float&lt;/code&gt; for decimal numbers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is also the &lt;a href=&#34;https://docs.python.org/3/library/functions.html#complex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;complex&lt;/a&gt; type, but we won&amp;rsquo;t be covering that here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Let&amp;rsquo;s write an &lt;code&gt;add&lt;/code&gt; function to try things out.&lt;/p&gt;
+&lt;p&gt;Create a test file called test_adder.py and write this code.&lt;/p&gt;
+&lt;h3&gt;Write the test first&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;write-the-test-first&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#write-the-test-first&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;Try and run the test&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;try-and-run-the-test&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#try-and-run-the-test&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;Write the minimal amount of code to make it run&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;write-the-minimal-amount-of-code-to-make-it-run&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#write-the-minimal-amount-of-code-to-make-it-run&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Write enough code to satisfy the compiler and that&amp;rsquo;s all - remember we want to check that our tests fail for the correct reason.&lt;/p&gt;
+&lt;h3&gt;Write enough code to make it pass&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;write-enough-code-to-make-it-pass&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#write-enough-code-to-make-it-pass&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the strictest sense of TDD we should now write the minimal amount of code to make the test pass. A pedantic programmer may do this&lt;/p&gt;
+&lt;h3&gt;Refactor&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;refactor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#refactor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We could write another test, with some different numbers to force that test to fail but that feels.&lt;/p&gt;
+&lt;h2&gt;Wrapping up&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wrapping-up&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wrapping-up&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;What we have covered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More practice of the TDD workflow.&lt;/li&gt;
+&lt;li&gt;Integers, Decimals, addition.&lt;/li&gt;
+&lt;li&gt;Principal numbers operations in Python.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Prepare the project</title>
       <link>http://localhost:1313/docs/prepare-the-book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
