@@ -4,6 +4,7 @@ theme = 'hextra'
 
 disablePathToLower = true
 enableGitInfo = true
+googleAnalytics = "G-8ZV7QKC7ZG"
 
 [markup]
 [markup.goldmark.renderer]
