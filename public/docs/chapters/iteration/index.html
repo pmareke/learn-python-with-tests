@@ -11,20 +11,18 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 
-  <title>Ranges – Learn Python with Tests</title>
+  <title>Iteration – Learn Python with Tests</title>
   <meta name="description" content="You can find all the code for this chapter here
-https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 Write the test first Try and run the test Write the minimal amount of code to make it run Write enough code to make it pass Refactor Wrapping up What we have covered:" />
 
   
-    <link rel="canonical" href="http://localhost:1313/docs/chapters/ranges/" itemprop="url" />
+    <link rel="canonical" href="http://localhost:1313/docs/chapters/iteration/" itemprop="url" />
   
 
   
 
-<meta property="og:title" content="Ranges" />
+<meta property="og:title" content="Iteration" />
 <meta property="og:description" content="You can find all the code for this chapter here
-https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 Write the test first
     Try and run the test
     Write the minimal amount of code to make it run
@@ -36,21 +34,18 @@ Write the test first
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/chapters/ranges/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/docs/chapters/iteration/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2024-10-14T09:09:45+02:00" />
+
 
   
-  <meta itemprop="name" content="Ranges">
+  <meta itemprop="name" content="Iteration">
   <meta itemprop="description" content="You can find all the code for this chapter here
-https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 Write the test first Try and run the test Write the minimal amount of code to make it run Write enough code to make it pass Refactor Wrapping up What we have covered:">
-  <meta itemprop="dateModified" content="2024-10-14T09:09:45+02:00">
-  <meta itemprop="wordCount" content="44">
+  <meta itemprop="wordCount" content="43">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Ranges">
+  <meta name="twitter:title" content="Iteration">
   <meta name="twitter:description" content="You can find all the code for this chapter here
-https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 Write the test first Try and run the test Write the minimal amount of code to make it run Write enough code to make it pass Refactor Wrapping up What we have covered:">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
@@ -236,12 +231,20 @@ Write the test first Try and run the test Write the minimal amount of code to ma
   >Tuples
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/chapters/ranges/"
     
   >Ranges
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col open"><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+    href="/docs/chapters/iteration/"
+    
+  >Iteration
     </a>
   
     <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
@@ -258,14 +261,6 @@ Write the test first Try and run the test Write the minimal amount of code to ma
             </li>
           </ul>
   
-              
-            </li><li class="hx-flex hx-flex-col "><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/chapters/iteration/"
-    
-  >Iteration
-    </a>
               
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -388,17 +383,17 @@ Write the test first Try and run the test Write the minimal amount of code to ma
   >Tuples
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/chapters/ranges/"
     
   >Ranges
     </a>
               
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
     href="/docs/chapters/iteration/"
     
   >Iteration
@@ -503,13 +498,12 @@ Write the test first Try and run the test Write the minimal amount of code to ma
         </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
           <a href="/docs/chapters/">Chapters</a>
-        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">Ranges</div>
+        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">Iteration</div>
   </div>
 
         <div class="content">
-          <h1>Ranges</h1>
-          <p><strong><a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples/ranges" target="_blank" rel="noopener">You can find all the code for this chapter here</a></strong></p>
-<p><a href="https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range" target="_blank" rel="noopener">https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range</a></p>
+          <h1>Iteration</h1>
+          <p><strong><a href="https://github.com/pmareke/learn-python-with-tests/tree/main/examples/booleans" target="_blank" rel="noopener">You can find all the code for this chapter here</a></strong></p>
 <h3>Write the test first<span class="hx-absolute -hx-mt-20" id="write-the-test-first"></span>
     <a href="#write-the-test-first" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>Try and run the test<span class="hx-absolute -hx-mt-20" id="try-and-run-the-test"></span>
     <a href="#try-and-run-the-test" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>Write the minimal amount of code to make it run<span class="hx-absolute -hx-mt-20" id="write-the-minimal-amount-of-code-to-make-it-run"></span>
@@ -524,14 +518,14 @@ Write the test first Try and run the test Write the minimal amount of code to ma
         </div>
         <div class="hx-mt-16"></div>
         <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden"><a
-        href="/docs/chapters/tuples/"
-        title="Tuples"
+        href="/docs/chapters/ranges/"
+        title="Ranges"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-pr-4 rtl:hx-pl-4"
-      ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Tuples</a><a
-        href="/docs/chapters/iteration/"
-        title="Iteration"
+      ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Ranges</a><a
+        href="/docs/chapters/strings/"
+        title="Strings"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-ml-auto ltr:hx-pl-4 ltr:hx-text-right rtl:hx-mr-auto rtl:hx-pr-4 rtl:hx-text-left"
-      >Iteration<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      >Strings<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
         
       </main>
     </article>
