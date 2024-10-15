@@ -1288,7 +1288,11 @@ in a list after you have created it.&lt;/p&gt;
   
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;remove&lt;/span&gt;(list, item):
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; list &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; item]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    new_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; item:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            new_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; add(new_list, i)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; new_list&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -1300,6 +1304,9 @@ in a list after you have created it.&lt;/p&gt;
 
   
 &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: We&amp;rsquo;re using a &lt;code&gt;for&lt;/code&gt; loop, don&amp;rsquo;t worry about it we&amp;rsquo;ll talk about it later in this book.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Wrapping up&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wrapping-up&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#wrapping-up&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;What we have covered:&lt;/p&gt;
 &lt;ul&gt;
@@ -1309,7 +1316,9 @@ in a list after you have created it.&lt;/p&gt;
 &lt;h2&gt;Your turn&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;your-turn&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#your-turn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A great way to learn is doing, so here are some ideas to keep practicing:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Write a test for the other operations like calculating the &lt;strong&gt;length&lt;/strong&gt; of a list or &lt;strong&gt;checking&lt;/strong&gt; if a list contains an item.&lt;/li&gt;
+&lt;li&gt;Write a test to calculate the &lt;strong&gt;length&lt;/strong&gt; of a list.&lt;/li&gt;
+&lt;li&gt;Write a test to &lt;strong&gt;check&lt;/strong&gt; if a list contains an item.&lt;/li&gt;
+&lt;li&gt;Write a test to &lt;strong&gt;compare&lt;/strong&gt; two lists.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

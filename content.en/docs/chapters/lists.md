@@ -185,8 +185,15 @@ Finally, we can refactor the code to make it more general.
 
 ```python
 def remove(list, item):
-    return [x for x in list if x != item]
+    new_list = []
+    for i in list:
+        if i != item:
+            new_list = add(new_list, i)
+    return new_list
 ```
+
+> **Note**: We're using a `for` loop, don't worry about it we'll talk about it later in this book.
+
 ## Wrapping up
 
 What we have covered:

@@ -32,7 +32,7 @@ The access is made by an index, which is an integer that represents the position
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/docs/chapters/lists/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2024-10-15T18:46:46+02:00" />
+<meta property="article:modified_time" content="2024-10-15T18:56:05+02:00" />
 
   
   <meta itemprop="name" content="Lists">
@@ -40,8 +40,8 @@ The access is made by an index, which is an integer that represents the position
 Lists in Python are a collection of items that can be of different types. They are mutable, meaning that you can change the elements in a list after you have created it.
 It’s possible to operate them in different ways, like adding, removing, or checking if an element is in the list.
 The access is made by an index, which is an integer that represents the position of the element in the list. The index starts at 0.">
-  <meta itemprop="dateModified" content="2024-10-15T18:46:46+02:00">
-  <meta itemprop="wordCount" content="644">
+  <meta itemprop="dateModified" content="2024-10-15T18:56:05+02:00">
+  <meta itemprop="wordCount" content="675">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Lists">
   <meta name="twitter:description" content="You can find all the code for this chapter here
@@ -753,7 +753,11 @@ in a list after you have created it.</p>
   
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">remove</span>(list, item):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [x <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> list <span style="color:#66d9ef">if</span> x <span style="color:#f92672">!=</span> item]</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+</span></span><span style="display:flex;"><span>    new_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> list:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> i <span style="color:#f92672">!=</span> item:
+</span></span><span style="display:flex;"><span>            new_list <span style="color:#f92672">=</span> add(new_list, i)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> new_list</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
     class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
     title="Copy code"
@@ -765,6 +769,9 @@ in a list after you have created it.</p>
 
   
 </div>
+<blockquote>
+<p><strong>Note</strong>: We&rsquo;re using a <code>for</code> loop, don&rsquo;t worry about it we&rsquo;ll talk about it later in this book.</p>
+</blockquote>
 <h2>Wrapping up<span class="hx-absolute -hx-mt-20" id="wrapping-up"></span>
     <a href="#wrapping-up" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>What we have covered:</p>
 <ul>
@@ -774,7 +781,9 @@ in a list after you have created it.</p>
 <h2>Your turn<span class="hx-absolute -hx-mt-20" id="your-turn"></span>
     <a href="#your-turn" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>A great way to learn is doing, so here are some ideas to keep practicing:</p>
 <ul>
-<li>Write a test for the other operations like calculating the <strong>length</strong> of a list or <strong>checking</strong> if a list contains an item.</li>
+<li>Write a test to calculate the <strong>length</strong> of a list.</li>
+<li>Write a test to <strong>check</strong> if a list contains an item.</li>
+<li>Write a test to <strong>compare</strong> two lists.</li>
 </ul>
 
         </div>

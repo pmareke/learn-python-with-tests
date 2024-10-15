@@ -3,4 +3,8 @@ def add(list, item):
 
 
 def remove(list, item):
-    return [x for x in list if x != item]
+    new_list = []
+    for i in list:
+        if i != item:
+            new_list = add(new_list, i)
+    return new_list
