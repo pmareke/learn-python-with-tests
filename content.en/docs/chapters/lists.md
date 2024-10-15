@@ -198,4 +198,6 @@ What we have covered:
 
 A great way to learn is doing, so here are some ideas to keep practicing:
 
-- Write a test for the other operations like calculating the **length** of a list or **checking** if a list contains an item.
+- Write a test to calculate the **length** of a list.
+- Write a test to **check** if a list contains an item.
+- Write a test to **compare** two lists.
