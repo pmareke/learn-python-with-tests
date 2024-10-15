@@ -18,7 +18,7 @@
     <lastmod>2024-10-13T13:34:36+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/chapters/numbers/</loc>
-    <lastmod>2024-10-14T08:39:17+02:00</lastmod>
+    <lastmod>2024-10-14T08:42:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/prepare-the-book/</loc>
     <lastmod>2024-10-12T13:53:29+02:00</lastmod>
@@ -26,11 +26,23 @@
     <loc>http://localhost:1313/docs/install-pytest/</loc>
     <lastmod>2024-10-12T13:53:29+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/chapters/lists/</loc>
+    <lastmod>2024-10-14T09:09:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/chapters/tuples/</loc>
+    <lastmod>2024-10-14T09:09:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/chapters/ranges/</loc>
+    <lastmod>2024-10-14T09:09:45+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/chapters/</loc>
     <lastmod>2024-10-12T13:53:29+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/chapters/TEMPLATE/</loc>
+    <lastmod>2024-10-13T13:54:13+02:00</lastmod>
   </url>
 </urlset>
